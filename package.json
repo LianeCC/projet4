@@ -1,0 +1,22 @@
+{
+  "name": "nina-carducci-dev",
+  "version": "1.0.0",
+  "description": "site de nina carducci optimisé",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LianeCC/projet4.git"
+  },
+  "author": "LianeCC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LianeCC/projet4/issues"
+  },
+  "homepage": "https://github.com/LianeCC/projet4#readme",
+  "devDependencies": {
+    "purgecss": "^6.0.0"
+  }
+}
