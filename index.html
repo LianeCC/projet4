@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Photographe - Nina Carducci</title>
+	<meta name="description" content="Nina Carducci, photographe passionnée, pour tout type d'évènements, en Île-de-France.">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -16,7 +18,7 @@
 <body>
 <div class="top-header">
 	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -24,10 +26,12 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
 		</ul>
-	</div>
+	</nav>
 </div>
-<div id="header">
 
+<main>
+
+<section id="header">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -54,10 +58,11 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
-<div id="about">
+</section>
+
+<section id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina-carducci-portrait.webp">
+		<img src="./assets/images/nina-carducci-portrait.webp" alt="photo de Nina Carducci">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -65,20 +70,21 @@
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
-<div id="gallery">
+</section>
+
+<section id="gallery">
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concerts.webp"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-entreprise.webp"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-entreprise.webp"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-mariage.webp"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-portrait.webp"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-mariage.webp"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait.webp"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-concerts.webp"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-entreprise.webp"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concerts.webp" alt="Concert d'Aaron Paul">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-entreprise.webp" alt="Entreprise de Ali Morshedlou">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-entreprise.webp" alt="Entreprise de Jason Goodman">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-mariage.webp" alt="Mariage d'Hannah Busing">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-portrait.webp" alt="Portrait d'Ade Tunji">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-mariage.webp" alt="Mariage de Jakob Owens">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-portrait.webp" alt="Portrait de Nino Van Prattenburg">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-concerts.webp" alt="Concert d'Austin Neill">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-entreprise.webp" alt="Entreprise de Mateus Campos Felipe">
 		</div>
 	</div>
 	<div class="quote">
@@ -89,8 +95,9 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
-<div id="services">
+</section>
+
+<section id="services">
 	<h3 class="title">Mes services</h3>
 	<div class="container">
 		<div class="service">
@@ -125,16 +132,19 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class="quote">
+</section>
+
+<blockquote class="quote">
 	<figure>
 		<blockquote>
 			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
-<div id="contact">
+</blockquote>
+</main>
+
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -150,9 +160,10 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera-image.webp">
+			<img src="./assets/images/camera-image.webp" alt="photo d'un appareil photo">
 		</div>
 	</div>
-</div>
+</footer>
+
 </body>
 </html>
