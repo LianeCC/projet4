@@ -2,6 +2,14 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
+h1, h2, h3, h4 {
+	margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -20,6 +28,9 @@ body {
 
 .top-header .name {
 	font-size: 26px;
+	font-weight: 400;
+	margin: 0;
+	padding-bottom: 8px;
 }
 
 .nav ul {
@@ -41,6 +52,7 @@ body {
 .social-link img {
 	width: 20px;
 }
+
 
 #about {
 	display: flex;
@@ -81,13 +93,19 @@ body {
 }
 .about-me__introduction {
 	font-family: 'Spectral';
+	font-size: 1rem;
 	font-weight: 800;
+	line-height: 1.2;
 	font-style: italic;
 	width: 60%;
+	margin-bottom: 8px;
+	margin-top: 0;
 }
-#about-me p {
-	width: 80%;
+
+.about-me__p {
 	font-size: 14px;
+	line-height: 1.6;
+	width: 80%;
 }
 
 #gallery {
@@ -146,12 +164,17 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: calc(1.375rem + 1.5vw);
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
 
 }
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
+	font-style: normal;
 }
 
 #services {
